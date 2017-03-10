@@ -1,0 +1,55 @@
+body {
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 20px;
+	font-family: verdana;
+}
+
+.grosa {
+	color: red;
+}
+
+.recuadro p:first-child{
+	background: magenta;
+}
+
+.recuadro p:last-child{
+	background: green;
+}
+
+.recuadro p:nth-child(2){
+	background: yellow;
+}
+
+.recuadro p:nth-child(even){
+	text-transform: uppercase;
+}
+
+
+.link {
+	color: red;
+	font-size: 40px;
+	text-decoration: none;
+}
+
+.link:hover {
+	color: blue;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.iconos {
+	font-size: 100px;
+}
+
+.color-facebook {
+	color: #3b5998;
+
+}
+
+.color-twitter {
+	color: #55acee;
+
+}
